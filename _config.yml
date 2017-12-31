@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Pratik Barjatiya / My Site"
-title_separator          : "-"
+title                    : "Pratik Barjatiya | My Site"
+title_separator          : "|"
 name                     : &name "Pratik Barjatiya"
-description              : &description "A Software Enthusiast, SDET"
+description              : &description "A Software Technology Enthusiast, SDET"
 url                      : https://pratikbarjatya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pratikbarjatya/pratikbarjatya.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Pratik Barjatiya"
   avatar           : "profile.png"
-  bio              : "I'm Software QA, an Electronics & Telecommunication Engineer and an Oracle Certified Professional, Java SE 6 Programmer."
+  bio              : "I'm a SDET, an Electronics & Telecommunication Engineer and an Oracle Certified Professional, Java SE 6 Programmer."
   location         : "Mumbai, India"
   employer         :
   googlescholar    :

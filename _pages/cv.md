@@ -11,31 +11,66 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.E. in Electronics & Tele-Communication, Walchand Institute of Technology, 2012
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+*  Sep 2012 - Nov 2014 : Agile Test Engineer
+    * **Amdocs DVCI**, Pune
+    * Duties included: Tagging issues
+    * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
+* Nov 2014 - Nov 2015: Software Engineer QA II
+  * **Talentica Software**, Pune
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
   
+* Nov 2015 - Apr 2016: Senior Software Test Engineer
+  * **Fiserv India Pvt Ltd**, Pune
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+  
+* Apr 2016 - Oct 2016: Software Engineer QA
+  * **Transerv Pvt Ltd**, Mumbai
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+  
+* Oct 2016 - Aug 2017: Software Development Engineer in Test 
+  * **Hotstar [Novi Digital Entertainment Pvt Ltd]**, Mumbai
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+    
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Java, Python
+* Test Automation
+  * Selenium
+  * Cucumber
+  * Rest-Assured
+  * Jersey
+  * Appium
+  * Ranorex
+  * Expresso
+  * XCUITest
+* Performance Testing
+  * Jmeter
+  * Taurus
+  * Tsung
+* Analytics
+  * Google Analytics
+  * Comscore
+  * Mixpanel
+  * Fabric 
+* Miscellaneous
+  * QC, RFT
+  * Rally, JIRA
+  * Git
+  * Ant, Maven, Gradle
+  * Jenkins
+  * Build Pipelines
+  * GoCD
+  * AWS, GCP
+  
 Publications
 ======
   <ul>{% for post in site.publications %}
