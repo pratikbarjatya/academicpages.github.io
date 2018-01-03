@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Pratik Barjatiya | My Site"
+title                    : "Pratik Barjatiya"
 title_separator          : "|"
 name                     : &name "Pratik Barjatiya"
 description              : &description "A Software Technology Enthusiast, SDET"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "pratik007a"
 facebook:
   username               :
   app_id                 :

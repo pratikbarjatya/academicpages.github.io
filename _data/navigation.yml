@@ -7,11 +7,13 @@ main:
 #    url: /talks/
 
   - title: "Emerging Technology"
-    url: /teaching/    
+    url: /emergingtech/
+#    url: /teaching/
     
   - title: "QA Tools"
-    url: /portfolio/
-        
+    url: /qatools/
+#    url: /portfolio/
+
   - title: "Blog Posts"
     url: /year-archive/
     
