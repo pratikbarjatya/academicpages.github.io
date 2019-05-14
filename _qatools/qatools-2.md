@@ -7,7 +7,7 @@ date: 2018-05-15
 location: "Mumbai, India"
 ---
 
-This is a list of most widely adapted test automation tools.
+This is a list of most widely adapted performance testing tools.
 
 Performance Testing Tools
 ======
