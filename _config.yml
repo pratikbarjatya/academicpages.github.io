@@ -181,6 +181,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  emergingtech:
+    output: true
+    permalink: /:collection/:path/
+  qatools:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -213,6 +219,24 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _emergingtech
+  - scope:
+      path: ""
+      type: emergingtech
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _qatools
+  - scope:
+      path: ""
+      type: qatools
     values:
       layout: single
       author_profile: true
