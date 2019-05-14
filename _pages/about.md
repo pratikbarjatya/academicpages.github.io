@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m Pratik Barjatiya, a Software Professional and Electronics & Tele-Communication Engineer from [Walchand Institute of technology](http://www.witsolapur.org/). I’m an interpretive software professional with just enough expertise in Software Testing and Software Deployment to make trouble.
+Hi! I’m Pratik Barjatiya, a Software Professional and Electronics & Tele-Communication Engineer from [Walchand Institute of technology](http://www.witsolapur.org/). I’m an interpretive software professional with just enough expertise in Software Testing and Data Analytics and Machine Learning to make trouble.
 
 My personal website
 ======
@@ -20,11 +20,11 @@ I am an enthusiast in delivering Sustainable Quality Products and share my learn
 My Speciality
 ------
 My specialties include: 
-- Test Automation for Mobile & Browser-based applications
-- Strategy
-- Planning
-- Execution
+- Test Automation for Web Services, Mobile & Browser-based applications
+- Test Strategy & Test Planning
+- Test Execution & Defect Tracking
 - Building fit-for-purpose Test Automation Frameworks, Performance Testing Frameworks
 - Monitoring, Analytics and Scalability Measurements
+- Data Analysis and Machine Learning using Python and PySpark
 - Coaching, Consulting & Trainings related to Testing and Test Automation
 - Agile - Coaching & Consulting
