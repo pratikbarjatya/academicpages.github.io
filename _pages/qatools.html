@@ -7,7 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.qatools %}
-  {% include archive-single.html %}
+{% for post in site.qatools reversed %}
+{% include archive-single.html %}
 {% endfor %}
