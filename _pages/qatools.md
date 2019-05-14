@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "QA Tools"
+permalink: /qatoolss/
 author_profile: true
 ---
 
@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% for post in site.qatools reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
