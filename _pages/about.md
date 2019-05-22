@@ -25,6 +25,6 @@ My specialties include:
 - Test Execution & Defect Tracking
 - Building fit-for-purpose Test Automation Frameworks, Performance Testing Frameworks
 - Monitoring, Analytics and Scalability Measurements
-- Data Analysis and Machine Learning using Python and PySpark
+- *Data Analysis and Machine Learning* using Python and PySpark
 - Coaching, Consulting & Trainings related to Testing and Test Automation
-- Agile - Coaching & Consulting
+- Agile - Scrum Coaching & Consulting
