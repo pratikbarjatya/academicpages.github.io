@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teachings:
+  teaching:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -187,7 +187,7 @@ collections:
   qatools:
     output: true
     permalink: /:collection/:path/
-  learnings:
+  learning:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -251,10 +251,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _learnings
+  # _learning
   - scope:
       path: ""
-      type: learnings
+      type: learning
     values:
       layout: single
       author_profile: true
