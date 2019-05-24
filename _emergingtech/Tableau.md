@@ -3,7 +3,7 @@ title: "Why Tableau?"
 collection: emergingtech
 type: "Tableau-BI"
 permalink: /emergingtech/Tableau
-date: 2019-24-05
+date: 2019-05-24
 location: "Mumbai, India"
 ---
 
