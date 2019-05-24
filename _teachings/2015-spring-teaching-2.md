@@ -1,8 +1,8 @@
 ---
 title: "Learning experience 2"
-collection: myLearnings
+collection: teachings
 type: "Workshop"
-permalink: /myLearnings/2015-spring-teaching-1
+permalink: /teachings/2015-spring-teaching-1
 venue: "University 1, Department"
 date: 2015-01-01
 location: "City, Country"

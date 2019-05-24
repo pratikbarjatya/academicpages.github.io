@@ -1,8 +1,8 @@
 ---
 title: "Learning experience 1"
-collection: myLearnings
+collection: teachings
 type: "Undergraduate course"
-permalink: /myLearnings/2014-spring-teaching-1
+permalink: /teachings/2014-spring-teaching-1
 venue: "University 1, Department"
 date: 2014-01-01
 location: "City, Country"

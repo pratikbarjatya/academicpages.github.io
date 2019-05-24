@@ -175,13 +175,19 @@ kramdown:
 
 # Collections
 collections:
-  myLearnings:
+  teachings:
+    output: true
+    permalink: /:collection/:path/
+  publications:
     output: true
     permalink: /:collection/:path/
   emergingtech:
     output: true
     permalink: /:collection/:path/
   qatools:
+    output: true
+    permalink: /:collection/:path/
+  learnings:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -209,10 +215,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _myLearnings
+  # _teachings
   - scope:
       path: ""
-      type: myLearnings
+      type: teachings
     values:
       layout: single
       author_profile: true
@@ -236,6 +242,24 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _learnings
+  - scope:
+      path: ""
+      type: learnings
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
   - scope:
       path: ""
