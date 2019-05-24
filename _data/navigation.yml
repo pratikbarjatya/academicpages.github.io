@@ -1,17 +1,13 @@
 # main links links
 main:
-#  - title: "Publications"
-#    url: /publications/
-
-#  - title: "Talks"
-#    url: /talks/
-
   - title: "Emerging Technology"
     url: /emergingtech/
-#    url: /teaching/
     
   - title: "QA Tools"
     url: /qatools/
+
+  - title: "CV"
+    url: /cv/
 
   - title: "Teaching"
     url: /teaching/
@@ -19,11 +15,14 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Learning"
+      url: /learning/
 
-  - title: "CV"
-    url: /cv/
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Talks"
+    url: /talks/
 
   - title: "Guide"
     url: /markdown/
