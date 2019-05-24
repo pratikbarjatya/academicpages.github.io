@@ -215,10 +215,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _myLearnings
   - scope:
       path: ""
-      type: teaching
+      type: myLearnings
     values:
       layout: single
       author_profile: true
