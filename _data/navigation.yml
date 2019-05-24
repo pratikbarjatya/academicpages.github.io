@@ -16,7 +16,7 @@ main:
     url: /portfolio/
 
   - title: "Learning"
-      url: /learning/
+    url: /learning/
 
   - title: "Publications"
     url: /publications/
