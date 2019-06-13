@@ -1,5 +1,6 @@
 ---
 title: "Cartesian and Polar Coordinates"
+excerpt: "Cartesian and Polar Coordinates"
 collection: learning
 date: 2019-06-13
 ---

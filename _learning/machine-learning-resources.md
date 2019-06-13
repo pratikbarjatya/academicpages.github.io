@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Resources"
-excerpt: "machine-learning-resources"
+excerpt: "Machine Learning Resources"
 collection: learning
 date: 2019-06-12
 ---
