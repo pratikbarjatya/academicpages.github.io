@@ -33,4 +33,3 @@ How it works:
 - It works this way: the machine is exposed to an environment where it trains itself continually using trial and error.
 - This machine learns from past experience and tries to capture the best possible knowledge to make accurate business decisions.
 - Example of Reinforcement Learning: Markov Decision Process
-
