@@ -1,11 +1,12 @@
 ---
 title: "Basic data preparation in Pyspark"
-excerpt:"Basic data preparation in Pyspark — Capping, Normalizing and Scaling"
+excerpt: "Basic data preparation in Pyspark — Capping, Normalizing and Scaling"
 collection: learning
 date: 2019-06-13
 ---
 
-
+Basic data preparation in Pyspark — Capping, Normalizing and Scaling
+======
 I’ll share some basic data preparation stuff I find myself doing quite often and I’m sure you may have too.
 I’ll use Pyspark and I’ll cover stuff like removing outliers and making your distributions normal before you feed
  your data into any model, be it linear regression or nearest neighbour searches.
