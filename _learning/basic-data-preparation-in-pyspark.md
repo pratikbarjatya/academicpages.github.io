@@ -34,6 +34,7 @@ Lets start.
     df = sqlContext.read.format("csv") \
        .options(header='true', inferschema='true') \
        .load(os.path.realpath("your_csv.csv"))
+       
 }
 
 I’d suggest to investigate each and every column individually, but for simplicity let me assume that all my features
@@ -73,6 +74,7 @@ Im using approxQuantile, otherwise it just takes too much time to calculate the 
         .when(df[col] > d[col][1], d[col][1])\
         .otherwise(df[col] ) +1).alias(col))
         print(col+" done)
+        
 }
 
 You can use the approxQuantile function again to check if the percentiles are more evenly distributed now.
@@ -89,6 +91,7 @@ For that I’ll use the VectorAssembler(), it nicely arranges your data in the f
              outputCol="scaledFeatures")
     scalerModel =  scaler.fit(transformed.select("features"))
     scaledData = scalerModel.transform(transformed)
+    
 }
 
 
