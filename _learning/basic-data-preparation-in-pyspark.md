@@ -1,6 +1,5 @@
 ---
-title: "Cartesian and Polar Coordinates"
-excerpt: "Cartesian and Polar Coordinates"
+title: "Basic data preparation in Pyspark — Capping, Normalizing and Scaling"
 collection: learning
 date: 2019-06-13
 ---
@@ -20,7 +19,7 @@ Scaling also has a big effect on any mode which calculates distances between obs
 I have noticed pretty distinct jumps in model performance before and after removing skewness from my data in some projects.
 Lets start.
 
-word-wrap:
+
 # importing some libraries
 
 import numpy as np
@@ -58,7 +57,6 @@ Other transformations like that boxcox is also pretty popular too.
 First I’ll calculate the 1st and 99th percentile for every feature and strore them in the dictionary d.
 
 
-word-wrap:
 # empty dictionary d
 
 d = {}
@@ -92,7 +90,7 @@ scaler = MinMaxScaler(inputCol="features",\
          outputCol="scaledFeatures")
 scalerModel =  scaler.fit(transformed.select("features"))
 scaledData = scalerModel.transform(transformed)
-break-word;
+
 
 I’m almost done. Now you’ll notice that what these functions have done is transformed your data and
  joined it with your original dataframe df_new.
@@ -100,20 +98,16 @@ The final features are now in the form of a list in the “features” column.
 All thats left is make a dataframe out of them.
 
 
-word-wrap:
 def extract(row):
     return (row.pmid, )+tuple(row.scaledFeatures.toArray().tolist())
 
 final_data = scaledData.select("pmid","scaledFeatures").rdd\
                .map(extract).toDF(df.columns)
-break-word;
 
 Finally I’ll save the data as a csv. Notice that Im repartitioning the data so that I get one file instead of a lot of part files.
 
-word-wrap:
 # saving the file
 
 final_data.repartition(1).write.csv("file_name.csv")
-break-word;
 
 And we’re done. If this was helpful to you, please leave a like and a comment.

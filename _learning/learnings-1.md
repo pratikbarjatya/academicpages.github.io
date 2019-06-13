@@ -1,6 +1,5 @@
 ---
 title: "Cartesian and Polar Coordinates"
-excerpt: "Cartesian and Polar Coordinates"
 collection: learning
 ---
 
