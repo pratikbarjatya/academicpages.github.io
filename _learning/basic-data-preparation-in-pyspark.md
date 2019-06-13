@@ -18,6 +18,7 @@ I have noticed pretty distinct jumps in model performance before and after remov
 Lets start.
 
 {
+    
     # importing some libraries
     import numpy as np
     from pyspark.sql import functions as F
@@ -50,6 +51,7 @@ Other transformations like that boxcox is also pretty popular too.
 First I’ll calculate the 1st and 99th percentile for every feature and strore them in the dictionary d.
 
 {
+
     # empty dictionary d
     d = {}
 
@@ -63,6 +65,7 @@ First I’ll calculate the 1st and 99th percentile for every feature and strore 
 Im using approxQuantile, otherwise it just takes too much time to calculate the percentiles if you have a huge dataset.
 
 {
+
     # looping through the columns, doing log(x+1) transformations
     for col in df.columns:
         df_new = df.withColumn(col, \
@@ -78,6 +81,7 @@ For that I’ll use the VectorAssembler(), it nicely arranges your data in the f
  you feed it to the MinMaxScaler() which will scale your data between 0 and 1.
 
 {
+
     assembler = VectorAssembler().setInputCols\
                 (df_new.columns).setOutputCol("features")
     transformed = assembler.transform(df_new)
@@ -94,6 +98,7 @@ The final features are now in the form of a list in the “features” column.
 All thats left is make a dataframe out of them.
 
 {
+
     def extract(row):
         return (row.pmid, )+tuple(row.scaledFeatures.toArray().tolist())
 
@@ -104,6 +109,7 @@ All thats left is make a dataframe out of them.
 
 Finally I’ll save the data as a csv. Notice that Im repartitioning the data so that I get one file instead of a lot of part files.
 {
+
     # saving the file
     final_data.repartition(1).write.csv("file_name.csv")
 
