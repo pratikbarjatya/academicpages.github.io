@@ -25,7 +25,9 @@ Lets start.
     import numpy as np
     from pyspark.sql import functions as F
     from pyspark.sql import SQLContext
+    
     sqlContext = SQLContext(sc)
+    
     from pyspark.ml.feature import MinMaxScaler
     from pyspark.ml.feature import VectorAssembler
 
