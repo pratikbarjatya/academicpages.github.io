@@ -11,8 +11,10 @@ date: 2019-07-29
 - A quick reference guide to the most commonly used patterns and functions in PySpark SQL.
 
     - Importing Functions & Types
-        - # Easily reference these as F.my_function() and T.my_type() below
-        { from pyspark.sql import functions as F, types as T }
+        - Easily reference these as F.my_function() and T.my_type() below
+        {% highlight ruby %}
+        from pyspark.sql import functions as F, types as T
+        {% endhighlight %}
 
     - Filtering
         - # Filter on equals condition
