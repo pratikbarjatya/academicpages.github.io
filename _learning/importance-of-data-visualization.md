@@ -84,23 +84,24 @@ Thus, it is vital to learn its most useful techniques and make them part of your
     - Just as in the case of univariate plots, the specific type of visualization will depend on the types of the variables being analyzed.
 
     *2.1 Quantitative vs. Quantitative*
-        *Correlation matrix*
-            - Let's look at the correlations among the numerical variables in our dataset.
-            - This information is important to know as there are Machine Learning algorithms (for example, linear and logistic regression) that do not handle highly correlated input variables well.
-            - First, we will use the method corr() on a DataFrame that calculates the correlation between each pair of features.
-            - Then, we pass the resulting correlation matrix to heatmap() from seaborn, which renders a color-coded matrix for the provided values.
+    
+    *Correlation matrix*
+        - Let's look at the correlations among the numerical variables in our dataset.
+        - This information is important to know as there are Machine Learning algorithms (for example, linear and logistic regression) that do not handle highly correlated input variables well.
+        - First, we will use the method corr() on a DataFrame that calculates the correlation between each pair of features.
+        - Then, we pass the resulting correlation matrix to heatmap() from seaborn, which renders a color-coded matrix for the provided values.
 
-        *Scatter plot*
-            - The scatter plot displays values of two numerical variables as Cartesian coordinates in 2D space.
-            - Scatter plots in 3D are also possible.
-            - There is a slightly fancier option to create a scatter plot with the seaborn library
-            - The function jointplot() plots two histograms that may be useful in some cases.
-            - Using the same function, we can also get a smoothed version of our bivariate distribution
-            - This is basically a bivariate version of the Kernel Density Plot discussed earlier.
+    *Scatter plot*
+        - The scatter plot displays values of two numerical variables as Cartesian coordinates in 2D space.
+        - Scatter plots in 3D are also possible.
+        - There is a slightly fancier option to create a scatter plot with the seaborn library
+        - The function jointplot() plots two histograms that may be useful in some cases.
+        - Using the same function, we can also get a smoothed version of our bivariate distribution
+        - This is basically a bivariate version of the Kernel Density Plot discussed earlier.
 
-        *Scatterplot matrix*
-            - In some cases, we may want to plot a scatterplot matrix.
-            - Its diagonal contains the distributions of the corresponding variables, and the scatter plots for each pair of variables fill the rest of the matrix.
+    *Scatterplot matrix*
+        - In some cases, we may want to plot a scatterplot matrix.
+        - Its diagonal contains the distributions of the corresponding variables, and the scatter plots for each pair of variables fill the rest of the matrix.
 
     *2.2 Quantitative vs. Categorical*
         - In this section, we will make our simple quantitative plots a little more exciting.
