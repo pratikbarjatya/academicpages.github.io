@@ -84,7 +84,7 @@ Thus, it is vital to learn its most useful techniques and make them part of your
     - Just as in the case of univariate plots, the specific type of visualization will depend on the types of the variables being analyzed.
 
     *2.1 Quantitative vs. Quantitative*
-    
+
     *Correlation matrix*
         - Let's look at the correlations among the numerical variables in our dataset.
         - This information is important to know as there are Machine Learning algorithms (for example, linear and logistic regression) that do not handle highly correlated input variables well.
@@ -145,28 +145,22 @@ Thus, it is vital to learn its most useful techniques and make them part of your
         - Its math is also impressive (we will not delve into it here, but, if you feel brave, [here](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf) is the original article by Laurens van der Maaten and Geoffrey Hinton from JMLR).
         - Its basic idea is simple: find a projection for a high-dimensional feature space onto a plane (or a 3D hyperplane, but it is almost always 2D) such that those points that were far apart in the initial n-dimensional space will end up far apart on the plane. Those that were originally close would remain close to each other.
         - Essentially, neighbor embedding is a search for a new and less-dimensional data representation that preserves neighborship of examples.
-        - Now, let's do some practice. First, we need to import some additional classes.
+
+    *Disadvantages of t-SNE:*
+        - High computational complexity. The implementation in scikit-learn is unlikely to be feasible in a real task. If you have a large number of samples, you should try Multicore-TSNE instead.
+        - The plot can change a great deal depending on the random seed, which complicates interpretation. In general, you shouldn’t make any far-reaching conclusions based on such graphs because it can equate to plain guessing. Of course, some findings in t-SNE pictures can inspire an idea and be confirmed through more thorough research down the line, but that does not happen very often.
+        - Occasionally, using t-SNE, you can get a really good intuition for the data. The following is a good paper that shows an example of this for handwritten digits: Visualizing MNIST.
+
+    let's do some practice. First, we need to import some additional classes.
+    We need to discard non-numeric values and convert the values "Yes"/"No" of the binary features into numerical values using pandas.Series.map()
+    We also need to normalize the data. For this, we will subtract the mean from each variable and divide it by its standard deviation. All of this can be done with StandardScaler.
+    Then build a t-SNE representation and plot it.
 
         {% highlight ruby %}
             from sklearn.manifold import TSNE
             from sklearn.preprocessing import StandardScaler
-        {% endhighlight %}
 
-        We need to discard non-numeric values and convert the values "Yes"/"No" of the binary features into numerical values using pandas.Series.map()
-        We also need to normalize the data. For this, we will subtract the mean from each variable and divide it by its standard deviation. All of this can be done with StandardScaler.
-        Then build a t-SNE representation:
+            tsne_repr = tsne.fit_transform(X_scaled)
 
-        {% highlight ruby %}
-        tsne_repr = tsne.fit_transform(X_scaled)
+            plt.scatter(tsne_repr[:, 0], tsne_repr[:, 1], alpha=.5);
         {% endhighlight ruby %}
-
-        and plot it:
-
-        {% highlight ruby %}
-        plt.scatter(tsne_repr[:, 0], tsne_repr[:, 1], alpha=.5);
-        {% endhighlight ruby %}
-
-        *Disadvantages of t-SNE:*
-            - High computational complexity. The implementation in scikit-learn is unlikely to be feasible in a real task. If you have a large number of samples, you should try Multicore-TSNE instead.
-            - The plot can change a great deal depending on the random seed, which complicates interpretation. In general, you shouldn’t make any far-reaching conclusions based on such graphs because it can equate to plain guessing. Of course, some findings in t-SNE pictures can inspire an idea and be confirmed through more thorough research down the line, but that does not happen very often.
-            - Occasionally, using t-SNE, you can get a really good intuition for the data. The following is a good paper that shows an example of this for handwritten digits: Visualizing MNIST.
