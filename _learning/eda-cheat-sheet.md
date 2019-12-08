@@ -7,8 +7,6 @@ date: 2019-12-08
 
 🐍 📄 EDA Cheat Sheet
 ======
-# EDA Cheat Sheet(s) 
-
 ## Why we EDA
 Sometimes the consumer of your analysis won't understand why you need the time for EDA and will want results NOW! Here are some of the reasons you can give to convince them it's a good use of time for everyone involved. 
 
