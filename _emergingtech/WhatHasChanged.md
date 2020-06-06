@@ -41,7 +41,7 @@ Why NoETL? ETL is an intermediary step, and at each ETL step you can introduce e
 - ETL can duplicate data after failover
 - ETL tools can cost millions of dollars
 - ETL decreases throughput
-- ETL increases the complexity of the pipeline
+- ETL increases the complexity of the pipeline <br>
 source: [noetl.org](https://noetl.org/)
 
 Key Takeaways
@@ -49,7 +49,7 @@ Key Takeaways
 - Pick one: ETL, ELTm ELTL,..
 - Treat all data equal: batch and stream
 - Continuous ETL: don't wait for a phase to complete
-- Don't just transform: enrich, lert, predict
+- Don't just transform: enrich, alert, predict
 - Build for scale: distribute data nad logic
 - Automate everything
 - Think about NoETL: each copy is a risk!

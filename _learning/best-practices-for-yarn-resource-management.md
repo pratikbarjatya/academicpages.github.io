@@ -9,7 +9,9 @@ date: 2019-07-29
 Best practices for YARN resource management
 ======
 
-- The fundamental idea of MRv2(YARN) is to split up the two major functionalities—resource management and job scheduling/monitoring, into separate daemons.
+- The fundamental idea of MRv2(YARN) is to split up the two major functionalities
+    - **resource management** and
+    - **job scheduling/monitoring**, into separate daemons.
 - The idea is to have a global ResourceManager (RM) and per-application ApplicationMaster (AM).
 - The ResourceManager(RM) and per-node slave, the NodeManager (NM), form the data-computation framework.
 - The ResourceManager is the ultimate authority that arbitrates resources among all the applications in the system.

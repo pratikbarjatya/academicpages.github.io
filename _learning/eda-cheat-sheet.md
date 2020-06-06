@@ -8,7 +8,8 @@ date: 2019-12-08
 🐍 📄 EDA Cheat Sheet
 ======
 ## Why we EDA
-Sometimes the consumer of your analysis won't understand why you need the time for EDA and will want results NOW! Here are some of the reasons you can give to convince them it's a good use of time for everyone involved. 
+Sometimes the consumer of your analysis won't understand why you need the time for EDA and will want results NOW! 
+Here are some reasons you can give to convince them it's a good use of time for everyone involved. 
 
 **Reasons for the analyst**
 * Identify patterns and develop hypotheses.
@@ -192,7 +193,7 @@ Are there patterns across many of the variables?
 * Distill and present findings 
 
 ## Visualization guide 
-Here are the types of visualizations and the python packages we find most useful for data exploration. 
+Here are the types of visualizations, and the python packages we find most useful for data exploration. 
 
 ### Univariate 
 * Categorical: 
