@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.E. in Electronics & Tele-Communication, Walchand Institute of Technology, 2012
+* B.E. in Electronics & Tele-Communication, [Walchand Institute of Technology](http://www.witsolapur.org/), 2012
 
 Work experience
 ======
@@ -69,10 +69,25 @@ Work experience
   * SPOC for Functional, Web Services and Performance testing of APIs with load of 60 K RPS
   * Implementation of Elastic Search based Live Monitoring System
   * Custom Java based framework based for Functional Testing of REST APIs
-    
+
+* Oct 2017 - Jun 2018: Senior Associate Quality Assurance  
+  * **Western Union TEC**, Pune
+  * Duties included: Played a role of Technology Specialist and worked on different cutting edge technologies in Development and Testing. (SEDA & AKKA)
+  * Implemented Post-mortem Delivery Analysis using core **NLP, NLTK based Sentiment Analysis Systems**
+  * Responsible for bringing out of the box solutions to challenging issues which are scalable with simple innovations in existing process to increase time to market and quality of Product
+  * Implemented Performance Engine using Jmeter and Tsung(Erlang based) for Cross-border, Cross-Currency Money Transfer systems
+
+* June 2018 - Till Date: Senior Software Engineer - Data Platform 
+  * **Zoomcar India Pvt Ltd**, Bangalore
+  * Duties include: unravelling associate and consumer behaviour at Zoomcar using the principles of Data Engineering and ever evolving suite of ML/statistical models
+  * Empowering the business by building data centric solutions' and data science applications.
+  * Currently, building **Next-Gen Data Pipeline & Query Platform** for near Realtime, Reliable, Frugal and Intelligent Insight Generation.
+  * Responsible to enable IoT Systems to track vehicles, enhance overall experience with Keyless driving, and uplift operations by capturing multiple metrics to calculate distance, fuel, battery health, car health, etc
+  * Sparkify - Machine Learning models - **Churn Analysis and Prediction**, Inventory Utilisation, Rider Scores, etc
+  
 Skills
 ======
-* Java, Python
+* Programming - Java, Python
 * Machine Learning
   * Numpy
   * Pandas
@@ -80,15 +95,20 @@ Skills
   * Scikit Learn
   * MatplotLib
   * EDA
+* Data Engineering
+  * Spark/PySpark
+  * NiFi
+  * Kafka
+  * Airflow
+  * AWS - EMR
+  * Jenkins
 * Test Automation
   * Selenium
   * Cucumber
   * Rest-Assured
-  * Jersey
   * Appium
   * Ranorex
   * Expresso
-  * XCUITest
 * Performance Testing
   * Jmeter
   * Taurus

@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi!  I am Pratik Barjatiya, **Data Engineering and Data Science practitioner** with 7+ years of experience. Former Quality Engineering Professional, an Electronics & Telecommunication Engineer from [Walchand Institute of technology](http://www.witsolapur.org/) and an Oracle Certified Professional, Java SE 6 Programmer. I am an interpretative software professional with just enough expertise in **Data Science, Data Engineering, Data Analytics, Machine Learning and Quality Engineering** to make trouble.
+Hi!  I am Pratik Barjatiya, **Data Engineering and Data Science practitioner** with 7+ years of experience.
+Former Quality Engineering Professional, an Electronics & Telecommunication Engineer from [Walchand Institute of technology](http://www.witsolapur.org/) and an Oracle Certified Professional, Java SE 6 Programmer.
+I am an interpretative software professional with just enough expertise in **Data Science, Data Engineering, Data Analytics, Machine Learning and Quality Engineering** to make trouble.
 
 Passionate about building intelligent machines and working on challenging data and scalability problems. Experienced in driving and building scalable data-centric products and strategies.
 
@@ -20,7 +22,7 @@ I have hands-on leadership and engineering experience participating in all aspec
 I have a wide range of experience in testing and building test tools and infrastructure, which includes project management, design, development, integration, reviews, quality assurance and release planning and management.
 
 My current area of focus is unravelling associate and consumer behaviour at Zoomcar using the principles of Data Engineering and ever evolving suite of ML/statistical models and empowering the business by building such insight generating data science products.
-Currently building Next-Gen Data Pipeline & Query Platform for near Realtime, Reliable, Frugal and Intelligent Insight Generation.
+Currently, building Next-Gen Data Pipeline & Query Platform for near Realtime, Reliable, Frugal and Intelligent Insight Generation.
 
 I am an enthusiast in delivering Sustainable Quality Products and share my learning over various Software Products.
 
@@ -43,5 +45,5 @@ My specialties include:
 - Coaching, Consulting & Trainings related to Testing and Test Automation
 - **Agile - Scrum Coaching & Consulting**
 
-My strengths are my creativity and decision making ability in addition to my quick learning skills.
+My strengths are my creativity and decision-making ability in addition to my quick learning skills.
 I believe in a multicultural society and would like to work in a dynamic work place which recognises my abilities and utilises me as a resource in a mutually beneficial way.
