@@ -32,7 +32,7 @@ My specialties include:
 - Working over large Relational & NoSql datasets equipped with sound Data Engineering principles for **Data Collection, Storage, Processing, Analysis, Visualisation and Data Security**
 - Skilled in utilising technology, statistics and analytics for effective data evaluation and finding hidden patterns and harnessing insights.
 - **Test Automation** for Web Services, Mobile & Browser-based applications
-- **Performance Testing** and Performance Monitoring with - Jmeter, Tsung, Taurus, New Relic
+- **Performance Testing** and Performance Monitoring with Jmeter, Tsung, Taurus, New Relic
 - Familiar in architecting **Test Strategy, Test Plan and Test Approaches and Test Reporting artefacts** for API, WEB and Mobile based OTT, Fin-Tech, e-Commerce & Telecom Applications
 - Building fit-for-purpose Test Automation Frameworks, Performance Testing Frameworks
 - Monitoring, Analytics and Scalability Measurements
