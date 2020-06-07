@@ -20,25 +20,25 @@ It highly depends on how you’re going to use it. For example, algorithms like 
 I have noticed pretty distinct jumps in model performance before and after removing skewness from my data in some projects.
 Let's start.
 
+```python
+# importing some libraries
+import numpy as np
+from pyspark.sql import functions as F
+from pyspark.sql import SQLContext
 
-    # importing some libraries
-    import numpy as np
-    from pyspark.sql import functions as F
-    from pyspark.sql import SQLContext
-    
-    sqlContext = SQLContext(sc)
-    
-    from pyspark.ml.feature import MinMaxScaler
-    from pyspark.ml.feature import VectorAssembler
+sqlContext = SQLContext(sc)
 
-    # checking if spark context is already created
-    print(sc.version)
+from pyspark.ml.feature import MinMaxScaler
+from pyspark.ml.feature import VectorAssembler
 
-    # reading your data as a dataframe
-    df = sqlContext.read.format("csv") \
-       .options(header='true', inferschema='true') \
-       .load(os.path.realpath("your_csv.csv"))
+# checking if spark context is already created
+print(sc.version)
 
+# reading your data as a dataframe
+df = sqlContext.read.format("csv") \
+   .options(header='true', inferschema='true') \
+   .load(os.path.realpath("your_csv.csv"))
+```
 
 - I’d suggest investigating each and every column individually, but for simplicity let me assume that all my features
  have highly skewed distributions and long tails on both ends.
@@ -54,60 +54,62 @@ Instead of having a solution this generic, it is better to have feature-wise cut
 
 - First I’ll calculate the 1st and 99th percentile for every feature and strore them in the dictionary d.
 
+```python
+# empty dictionary d
+d = {}
 
-    # empty dictionary d
-    d = {}
-
-    # Fill in the entries one by one
-    for col in df.columns[1:-3]:
-          d[col] = df.approxQuantile(col,[0.01,0.99],0.25)
-          print(col+" done")
+# Fill in the entries one by one
+for col in df.columns[1:-3]:
+      d[col] = df.approxQuantile(col,[0.01,0.99],0.25)
+      print(col+" done")
+```
 
 - I'm using **approxQuantile**, otherwise it just takes too much time to calculate the percentiles if you have a huge dataset.
 
-
-    # looping through the columns, doing log(x+1) transformations
-    for col in df.columns:
-        df_new = df.withColumn(col, \
-        F.log(F.when(df[col] < d[col][0],d[col][0])\
-        .when(df[col] > d[col][1], d[col][1])\
-        .otherwise(df[col] ) +1).alias(col))
-        print(col+" done)
-
+```python
+# looping through the columns, doing log(x+1) transformations
+for col in df.columns:
+    df_new = df.withColumn(col, \
+    F.log(F.when(df[col] < d[col][0],d[col][0])\
+    .when(df[col] > d[col][1], d[col][1])\
+    .otherwise(df[col] ) +1).alias(col))
+    print(col+" done")
+```
 
 - You can use the **approxQuantile** function again to check if the percentiles are more evenly distributed now.
 - Now I'm done with the log transformation, I'll move onto scaling the data — making sure all the features are between 0 and 1.
 - For that I’ll use the **VectorAssembler()**, it nicely arranges your data in the form of Vectors, dense or sparse before
  you feed it to the **MinMaxScaler()** which will scale your data between 0 and 1.
 
-
-    assembler = VectorAssembler().setInputCols\
-                (df_new.columns).setOutputCol("features")
-    transformed = assembler.transform(df_new)
-    scaler = MinMaxScaler(inputCol="features",\
-             outputCol="scaledFeatures")
-    scalerModel =  scaler.fit(transformed.select("features"))
-    scaledData = scalerModel.transform(transformed)
-
+```python
+assembler = VectorAssembler().setInputCols\
+            (df_new.columns).setOutputCol("features")
+transformed = assembler.transform(df_new)
+scaler = MinMaxScaler(inputCol="features",\
+         outputCol="scaledFeatures")
+scalerModel =  scaler.fit(transformed.select("features"))
+scaledData = scalerModel.transform(transformed)
+```
 
 - I’m almost done. Now you’ll notice that what these functions have done is transformed your data and
  joined it with your original dataframe df_new.
 - The final features are now in the form of a list in the “features” column.
 - All that's left is make a dataframe out of them.
 
-
-    def extract(row):
+```python
+def extract(row):
         return (row.pmid, )+tuple(row.scaledFeatures.toArray().tolist())
 
-    final_data = scaledData.select("pmid","scaledFeatures").rdd\
-                   .map(extract).toDF(df.columns)
+final_data = scaledData.select("pmid","scaledFeatures").rdd\
+               .map(extract).toDF(df.columns)
 
+```
 
 - Finally, I’ll save the data as a csv. Notice that Im repartitioning the data so that I get one file instead of a lot of part files.
 
-
-    # saving the file
-    final_data.repartition(1).write.csv("file_name.csv")
-
+```python
+# saving the file
+final_data.repartition(1).write.csv("file_name.csv")
+```
 
 yes, we’re done. If this was helpful to you, please leave a like and a comment.
