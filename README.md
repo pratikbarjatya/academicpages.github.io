@@ -9,7 +9,7 @@ Passionate about building intelligent machines and working on challenging data a
 **Passionate professional and love to deep dive in data.**
 
 Data science and Machine learning practitioner and AI enthusiasm. By Nature, I am keen to research and explore untapped areas.
-Welling to learn and being available as a mentor for the one who wants to explore this field. 
+Willing to learn and being available as a mentor for the one who wants to explore this field. 
 
 Strong believer in giving back to community and running ["Learn-On-Go"](https://www.linkedin.com/groups/13913721/) group on LinkedIn
 
@@ -17,16 +17,16 @@ Strong believer in giving back to community and running ["Learn-On-Go"](https://
   <img align="left" alt="Pratik's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 </a>
 <a href="https://www.linkedin.com/in/pratik-barjatiya/">
-  <img align="left" alt="Pratik's LinkedIn" width="22px" src="https://github.com/jmps967/jmps967/blob/master/Image/LinkedIn.svg" />
+  <img align="left" alt="Pratik's LinkedIn" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/LinkedIn.svg" />
 </a>
 <a href="https://twitter.com/pratik007a">
-  <img align="left" alt="Pratik's Twitter" width="22px" src="https://github.com/jmps967/jmps967/blob/master/Image/twitter.svg" />
+  <img align="left" alt="Pratik's Twitter" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/twitter.svg" />
 </a>
 <a href="https://www.kaggle.com/pra0705">
-  <img align="left" alt="Pratik's Kaggle" width="22px" src="https://github.com/jmps967/jmps967/blob/master/Image/Kaggle.svg" /> 
+  <img align="left" alt="Pratik's Kaggle" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/Kaggle.svg" /> 
 </a>
 <a href="https://www.youtube.com/channel/UCa1dGjVhCyxHyVusxBydSFA">
-  <img align="left" alt="Pratik Barjatiya's Youtube" width="22px" src="https://github.com/jmps967/jmps967/blob/master/Image/youtube.svg" />
+  <img align="left" alt="Pratik Barjatiya's Youtube" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/youtube.svg" />
 </a>
 <br/>
 <br/>
