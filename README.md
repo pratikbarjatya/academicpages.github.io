@@ -17,16 +17,16 @@ Strong believer in giving back to community and running ["Learn-On-Go"](https://
   <img align="left" alt="Pratik's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 </a>
 <a href="https://www.linkedin.com/in/pratik-barjatiya/">
-  <img align="left" alt="Pratik's LinkedIn" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/LinkedIn.svg" />
+  <img align="left" alt="Pratik's LinkedIn" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/LinkedIn.svg" />
 </a>
 <a href="https://twitter.com/pratik007a">
-  <img align="left" alt="Pratik's Twitter" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/twitter.svg" />
+  <img align="left" alt="Pratik's Twitter" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/twitter.svg" />
 </a>
 <a href="https://www.kaggle.com/pra0705">
-  <img align="left" alt="Pratik's Kaggle" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/Kaggle.svg" /> 
+  <img align="left" alt="Pratik's Kaggle" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/Kaggle.svg" /> 
 </a>
 <a href="https://www.youtube.com/channel/UCa1dGjVhCyxHyVusxBydSFA">
-  <img align="left" alt="Pratik Barjatiya's Youtube" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/Image/youtube.svg" />
+  <img align="left" alt="Pratik Barjatiya's Youtube" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/youtube.svg" />
 </a>
 <br/>
 <br/>
@@ -53,11 +53,11 @@ Strong believer in giving back to community and running ["Learn-On-Go"](https://
 
 <!--
 **jmps967/jmps967** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-[![Jigna's github Statistics](https://github-readme-stats.vercel.app/api?username=jmps967&hide=contribs,prs)](https://github.com/jmps967/github-readme-stats)
+[![Pratik's github Statistics](https://github-readme-stats.vercel.app/api?username=pratikbarjatya&hide=contribs,prs)](https://github.com/pratikbarjatya/github-readme-stats)
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmps967&layout=compact&theme=material-palenight" />
 
-![](https://komarev.com/ghpvc/?username=jmps967&style=flat-square)
+![](https://komarev.com/ghpvc/?username=pratikbarjatya&style=flat-square)
 </a>
 
 Here are some ideas to get you started:
