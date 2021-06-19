@@ -17,16 +17,16 @@ Strong believer in giving back to community and running ["Learn-On-Go"](https://
   <img align="left" alt="Pratik's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 </a>
 <a href="https://www.linkedin.com/in/pratik-barjatiya/">
-  <img align="left" alt="Pratik's LinkedIn" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/LinkedIn.svg" />
+  <img align="left" alt="Pratik's LinkedIn" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/main/assets/icons/LinkedIn.svg" />
 </a>
 <a href="https://twitter.com/pratik007a">
-  <img align="left" alt="Pratik's Twitter" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/twitter.svg" />
+  <img align="left" alt="Pratik's Twitter" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/main/assets/icons/twitter.svg" />
 </a>
 <a href="https://www.kaggle.com/pra0705">
-  <img align="left" alt="Pratik's Kaggle" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/Kaggle.svg" /> 
+  <img align="left" alt="Pratik's Kaggle" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/main/assets/icons/Kaggle.svg" /> 
 </a>
 <a href="https://www.youtube.com/channel/UCa1dGjVhCyxHyVusxBydSFA">
-  <img align="left" alt="Pratik Barjatiya's Youtube" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/master/assets/icons/youtube.svg" />
+  <img align="left" alt="Pratik Barjatiya's Youtube" width="22px" src="https://github.com/pratikbarjatya/pratikbarjatya/blob/main/assets/icons/youtube.svg" />
 </a>
 <br/>
 <br/>
